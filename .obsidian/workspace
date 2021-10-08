@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "数据库/MySQL/戴师兄SQL零基础入门教程/第一天.md",
+            "file": "数据库/MySQL/戴师兄SQL零基础入门教程/第二天.md",
             "mode": "source"
           }
         }
@@ -60,8 +60,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "b265fb343fbffabb",
@@ -77,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "数据库/MySQL/戴师兄SQL零基础入门教程/第一天.md",
+                "file": "数据库/MySQL/戴师兄SQL零基础入门教程/第二天.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +101,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "数据库/MySQL/戴师兄SQL零基础入门教程/第一天.md",
+                "file": "数据库/MySQL/戴师兄SQL零基础入门教程/第二天.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "数据库/MySQL/戴师兄SQL零基础入门教程/第一天.md"
+                "file": "数据库/MySQL/戴师兄SQL零基础入门教程/第二天.md"
               }
             }
           },
@@ -142,10 +141,12 @@
       }
     ],
     "direction": "horizontal",
-    "width": 318.370361328125
+    "width": 318.370361328125,
+    "collapsed": true
   },
   "active": "c1d0e4fbdfd84fa9",
   "lastOpenFiles": [
+    "数据库/MySQL/戴师兄SQL零基础入门教程/第二天.md",
     "数据库/MySQL/戴师兄SQL零基础入门教程/第一天.md",
     "数学/线性代数/特征值的代数重数与几何重数.md",
     "未命名.md",
@@ -153,7 +154,6 @@
     "数据库/MySQL/戴师兄SQL零基础入门教程/戴师兄SQL零基础入门教程.md",
     "数据库/MySQL/戴师兄SQL零基础入门教程/练习题合集.md",
     "数据库/MySQL/戴师兄SQL零基础入门教程/SQL是什么？.md",
-    "数据库/MySQL/戴师兄SQL零基础入门教程/第二天.md",
     "GIT/GIT CHEAT SHEET/Git-Cheat-Sheet.pdf",
     "GIT/Creating Snapshots/Creating Snapshots.md"
   ]
