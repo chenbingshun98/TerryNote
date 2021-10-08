@@ -4,11 +4,14 @@
     "type": "split",
     "children": [
       {
-        "id": "4a1ffba95b2cf692",
+        "id": "63f8bc9bce52386e",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "数据库/MySQL/戴师兄SQL零基础入门教程/第一天.md",
+            "mode": "source"
+          }
         }
       }
     ],
@@ -74,6 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "数据库/MySQL/戴师兄SQL零基础入门教程/第一天.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "数据库/MySQL/戴师兄SQL零基础入门教程/第一天.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "数据库/MySQL/戴师兄SQL零基础入门教程/第一天.md"
+              }
             }
           },
           {
@@ -137,17 +144,17 @@
     "width": 311.370361328125,
     "collapsed": true
   },
-  "active": "4a1ffba95b2cf692",
+  "active": "63f8bc9bce52386e",
   "lastOpenFiles": [
-    "数学/数学分析/待整理/07微分.md",
+    "数据库/MySQL/戴师兄SQL零基础入门教程/第一天.md",
+    "数据库/MySQL/戴师兄SQL零基础入门教程/SQL是什么？.md",
+    "数据库/MySQL/戴师兄SQL零基础入门教程/第二天.md",
+    "数据库/MySQL/戴师兄SQL零基础入门教程/戴师兄SQL零基础入门教程.md",
+    "GIT/GIT CHEAT SHEET/Git-Cheat-Sheet.pdf",
     "GIT/Creating Snapshots/Creating Snapshots.md",
     "GIT/Rewriting History/Rewriting History.md",
-    "GIT/Rewriting History.md",
-    "GIT/Creating Snapshots.md",
-    "GIT/GIT CHEAT SHEET/Git-Cheat-Sheet.pdf",
-    "GIT/GIT CHEAT SHEET/Browsing History/Browsing History.md",
-    "Comparing commits.md",
-    "Checking out a commit.md",
-    "GIT/Browsing History.md"
+    "try.md",
+    "数学/数学分析/待整理/07微分.md",
+    "GIT/Rewriting History.md"
   ]
 }
