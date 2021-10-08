@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "数学/线性代数/线性代数知识地图.md",
-            "mode": "source"
+            "file": "数学/线性代数/未命名.md",
+            "mode": "preview"
           }
         }
       }
@@ -60,8 +60,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "b265fb343fbffabb",
@@ -77,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "数学/线性代数/线性代数知识地图.md",
+                "file": "数学/线性代数/未命名.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +101,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "数学/线性代数/线性代数知识地图.md",
+                "file": "数学/线性代数/未命名.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "数学/线性代数/线性代数知识地图.md"
+                "file": "数学/线性代数/未命名.md"
               }
             }
           },
@@ -146,8 +145,8 @@
   },
   "active": "5dedd12d2c772559",
   "lastOpenFiles": [
-    "数学/线性代数/线性代数知识地图.md",
     "未命名.md",
+    "数学/线性代数/线性代数知识地图.md",
     "数据库/MySQL/戴师兄SQL零基础入门教程/戴师兄SQL零基础入门教程.md",
     "数据库/MySQL/戴师兄SQL零基础入门教程/练习题合集.md",
     "数据库/MySQL/戴师兄SQL零基础入门教程/第一天.md",
