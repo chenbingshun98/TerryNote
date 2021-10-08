@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "63f8bc9bce52386e",
+        "id": "4b83828cccafbfa9",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -137,14 +137,14 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 311.370361328125,
-    "collapsed": true
+    "width": 311.370361328125
   },
-  "active": "63f8bc9bce52386e",
+  "active": "4b83828cccafbfa9",
   "lastOpenFiles": [
     "数据库/MySQL/戴师兄SQL零基础入门教程/第一天.md",
     "数据库/MySQL/戴师兄SQL零基础入门教程/SQL是什么？.md",
