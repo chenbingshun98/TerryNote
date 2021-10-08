@@ -1,0 +1,9 @@
+{
+  "baseFontSize": 16,
+  "cssTheme": "Gitsidian",
+  "translucency": true,
+  "enabledCssSnippets": [
+    "tag-pills"
+  ],
+  "theme": "obsidian"
+}

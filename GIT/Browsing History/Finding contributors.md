@@ -1,0 +1,2 @@
+### Finding contributors
+- ```git shortlog```

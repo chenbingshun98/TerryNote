@@ -1,0 +1,11 @@
+### Managing branches
+- ```git branch bugfix ```
+	 - Creates a new branch called bugfix 
+- ```git checkout bugfix```
+	- Switches to the bugfix branch 
+- ```git switch bugfix```
+	- Same as the above 
+- ```git switch -C bugfix```
+	 -Creates and switches
+- ```git branch -d bugfix ```
+	 -Deletes the bugfix branch
