@@ -4,14 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "1cd872851466978a",
+        "id": "dfe8d2040f7df3dd",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "凯撒密码.md",
-            "mode": "source"
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -77,7 +74,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "凯撒密码.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +98,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "凯撒密码.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +119,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "凯撒密码.md"
-              }
+              "state": {}
             }
           },
           {
@@ -142,10 +135,9 @@
       }
     ],
     "direction": "horizontal",
-    "width": 318.370361328125,
-    "collapsed": true
+    "width": 318.370361328125
   },
-  "active": "1cd872851466978a",
+  "active": "dfe8d2040f7df3dd",
   "lastOpenFiles": [
     "凯撒密码.md",
     "数学/线性代数/特征值的代数重数与几何重数.md",
