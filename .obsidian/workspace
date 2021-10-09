@@ -4,14 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "c1d0e4fbdfd84fa9",
+        "id": "d5ee7bf9b88d888f",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "数据库/MySQL/戴师兄SQL零基础入门教程/第二天.md",
-            "mode": "source"
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -76,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "数据库/MySQL/戴师兄SQL零基础入门教程/第二天.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "数据库/MySQL/戴师兄SQL零基础入门教程/第二天.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "数据库/MySQL/戴师兄SQL零基础入门教程/第二天.md"
-              }
+              "state": {}
             }
           },
           {
@@ -144,12 +137,12 @@
     "width": 318.370361328125,
     "collapsed": true
   },
-  "active": "c1d0e4fbdfd84fa9",
+  "active": "d5ee7bf9b88d888f",
   "lastOpenFiles": [
+    "未命名.md",
     "数据库/MySQL/戴师兄SQL零基础入门教程/第二天.md",
     "数据库/MySQL/戴师兄SQL零基础入门教程/第一天.md",
     "数学/线性代数/特征值的代数重数与几何重数.md",
-    "未命名.md",
     "数学/线性代数/线性代数知识地图.md",
     "数据库/MySQL/戴师兄SQL零基础入门教程/戴师兄SQL零基础入门教程.md",
     "数据库/MySQL/戴师兄SQL零基础入门教程/练习题合集.md",
