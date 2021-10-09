@@ -1,20 +1,4 @@
-
----
-aliases: [Caesar Cipher,Caesar密码]
----
-
-## 特点
-- 凯撒密码算法具有以下特点 -
-	- Caesar Cipher技术是一种简单易用的加密技术。
-	- 它是简单类型的替换密码。
-	- 每个纯文本字母都被一个字母替换，该字母具有一些固定数量的位置和字母。
-
-
-下图描绘了Caesar密码算法实现的**工作原理** -
-
-![凯撒密码算法](https://iowiki.com/static/cimg/cryptography_with_python/algorithm_caesar_cipher.jpg)
-
-## Caesar Cipher Formula
+# Caesar Cipher Formula
 
 **The formula to convert a given plaintext ‘P’ to ciphertext ‘C’ using key ‘K’ is:**
 
@@ -70,18 +54,3 @@ print(f"Shift pattern: {str(s)}")
 print(f"Cipher: {encrypt(text, s)}")
 			
 ```
-
-## 常见问题（FAQ）
-
-### 凯撒密码算法的局限性是什么？
-**What is the limitation of caesar cipher algorithm?**
-
-The limitation of the caesar cipher is that it is prone to _[brute force](https://en.wikipedia.org/wiki/Brute-force_attack) attack_, meaning that by trying every key combination, the plaintext can be obtained. This is because there are only 26 unique keys possible.
-
-
-## 参考文献
-
-\[1\].[WIKI教程凯撒密码]([Caesar Cipher_用Python学习密码学|WIKI教程 (iowiki.com)](https://iowiki.com/cryptography_with_python/cryptography_with_python_caesar_cipher.html))
-
-\[2\]. [Learn About Caesar Cipher in Python]([Learn About Caesar Cipher in Python - Python Pool](https://www.pythonpool.com/caesar-cipher-python/))
-
