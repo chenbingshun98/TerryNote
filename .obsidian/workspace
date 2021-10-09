@@ -4,14 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "6ae13f87759625f9",
+        "id": "04bb37d2e3255119",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "数学/数学分析/待整理/08不定积分.md",
-            "mode": "source"
-          }
+          "type": "graph",
+          "state": {}
         }
       }
     ],
@@ -60,7 +57,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "b265fb343fbffabb",
@@ -76,7 +74,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "数学/数学分析/待整理/08不定积分.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +90,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "数学/数学分析/待整理/08不定积分.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -115,9 +111,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "数学/数学分析/待整理/08不定积分.md"
-              }
+              "state": {}
             }
           },
           {
@@ -136,17 +130,17 @@
     "width": 318.370361328125,
     "collapsed": true
   },
-  "active": "6ae13f87759625f9",
+  "active": "04bb37d2e3255119",
   "lastOpenFiles": [
-    "数学/数学分析/待整理/08不定积分.md",
-    "数学/数学分析/待整理/02数列极限.md",
-    "数学/线性代数/二次型.md",
-    "数学/线性代数/线性代数知识地图.md",
+    "数学/线性代数/特征值的代数重数与几何重数/定义.md",
+    "数学/线性代数/特征值的代数重数与几何重数/几何重数不大于代数重数.md",
+    "数学/线性代数/特征值的代数重数与几何重数/特征值的代数重数与几何重数.md",
     "数学/线性代数/特征值的代数重数与几何重数.md",
-    "template/T-1.md",
-    "数学/线性代数/相似矩阵/相似矩阵.md",
     "数学/线性代数/相似矩阵/用特征值判断矩阵是否相似.md",
-    "数学/线性代数/相似矩阵/相似关系.md",
-    "数据结构/密码学/凯撒密码/Caesar Cipher Formula.md"
+    "数学/线性代数/二次型.md",
+    "数学/逻辑学导论.md",
+    "template/T-1.md",
+    "数学/线性代数/相似矩阵/参考文献.md",
+    "数学/线性代数/相似矩阵/相似关系.md"
   ]
 }
