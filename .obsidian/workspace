@@ -7,8 +7,11 @@
         "id": "04bb37d2e3255119",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "数据库/MySQL/戴师兄SQL零基础入门教程/第二天.md",
+            "mode": "source"
+          }
         }
       }
     ],
@@ -57,7 +60,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "b265fb343fbffabb",
@@ -73,6 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "数据库/MySQL/戴师兄SQL零基础入门教程/第二天.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "数据库/MySQL/戴师兄SQL零基础入门教程/第二天.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -110,7 +116,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "数据库/MySQL/戴师兄SQL零基础入门教程/第二天.md"
+              }
             }
           },
           {
@@ -122,15 +130,15 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 318.370361328125,
-    "collapsed": true
+    "width": 318.370361328125
   },
   "active": "04bb37d2e3255119",
   "lastOpenFiles": [
+    "数据库/MySQL/戴师兄SQL零基础入门教程/第二天.md",
     "数据结构/密码学/凯撒密码/凯撒密码公式.md",
     "数据结构/密码学/凯撒密码/特点.md",
     "数据结构/密码学/凯撒密码/凯撒密码.md",
@@ -139,7 +147,6 @@
     "数据结构/密码学/凯撒密码/常见问题（FAQ）.md",
     "数据结构/密码学/凯撒密码/Caesar Cipher Formula.md",
     "未命名.md",
-    "数学/线性代数/特征值的代数重数与几何重数/定义.md",
-    "数学/线性代数/特征值的代数重数与几何重数/几何重数不大于代数重数.md"
+    "数学/线性代数/特征值的代数重数与几何重数/定义.md"
   ]
 }
