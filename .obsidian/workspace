@@ -7,11 +7,8 @@
         "id": "04bb37d2e3255119",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "数据结构/密码学/凯撒密码/凯撒密码公式.md",
-            "mode": "preview"
-          }
+          "type": "graph",
+          "state": {}
         }
       }
     ],
@@ -76,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "数据结构/密码学/凯撒密码/凯撒密码公式.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +89,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "数据结构/密码学/凯撒密码/凯撒密码公式.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -115,9 +110,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "数据结构/密码学/凯撒密码/凯撒密码公式.md"
-              }
+              "state": {}
             }
           },
           {
