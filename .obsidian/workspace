@@ -7,8 +7,11 @@
         "id": "3dc4bd6d0c3abb0e",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "数学/线性代数/特征值的代数重数与几何重数/定义.md",
+            "mode": "preview"
+          }
         }
       }
     ],
@@ -53,7 +56,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -73,6 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "数学/线性代数/特征值的代数重数与几何重数/定义.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "数学/线性代数/特征值的代数重数与几何重数/定义.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -110,7 +116,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "数学/线性代数/特征值的代数重数与几何重数/定义.md"
+              }
             }
           },
           {
@@ -131,6 +139,7 @@
   },
   "active": "3dc4bd6d0c3abb0e",
   "lastOpenFiles": [
+    "数学/线性代数/特征值的代数重数与几何重数/定义.md",
     "数据库/MySQL/戴师兄SQL零基础入门教程/第二天/主知识点八：常用函数/【总结】.md",
     "数据库/MySQL/戴师兄SQL零基础入门教程/第二天/主知识点八：常用函数/主知识点八：常用函数.md",
     "数据库/MySQL/戴师兄SQL零基础入门教程/第二天/主知识点八：常用函数/【知识点引入】.md",
@@ -139,7 +148,6 @@
     "数据库/MySQL/戴师兄SQL零基础入门教程/第二天/主知识点八：常用函数.md",
     "数据库/MySQL/戴师兄SQL零基础入门教程/第一天/主知识点二：where.md",
     "数据库/MySQL/戴师兄SQL零基础入门教程/第一天/第一天.md",
-    "template/T-1.md",
-    "数据库/MySQL/戴师兄SQL零基础入门教程/第一天/主知识点一：select&from.md"
+    "template/T-1.md"
   ]
 }
