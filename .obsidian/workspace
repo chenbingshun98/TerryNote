@@ -4,14 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "7a0df5b80b4c38a0",
+        "id": "3dc4bd6d0c3abb0e",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "数据库/MySQL/戴师兄SQL零基础入门教程/第一天/第一天.md",
-            "mode": "source"
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -76,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "数据库/MySQL/戴师兄SQL零基础入门教程/第一天/第一天.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +89,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "数据库/MySQL/戴师兄SQL零基础入门教程/第一天/第一天.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -115,9 +110,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "数据库/MySQL/戴师兄SQL零基础入门教程/第一天/第一天.md"
-              }
+              "state": {}
             }
           },
           {
@@ -133,19 +126,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 318.370361328125
+    "width": 318.370361328125,
+    "collapsed": true
   },
-  "active": "7a0df5b80b4c38a0",
+  "active": "3dc4bd6d0c3abb0e",
   "lastOpenFiles": [
-    "数据库/MySQL/戴师兄SQL零基础入门教程/第一天/第一天.md",
-    "数据库/MySQL/戴师兄SQL零基础入门教程/第一天/SQL是什么？.md",
+    "数据库/MySQL/戴师兄SQL零基础入门教程/第二天/主知识点八：常用函数/【总结】.md",
+    "数据库/MySQL/戴师兄SQL零基础入门教程/第二天/主知识点八：常用函数/主知识点八：常用函数.md",
+    "数据库/MySQL/戴师兄SQL零基础入门教程/第二天/主知识点八：常用函数/【知识点引入】.md",
+    "数据库/MySQL/戴师兄SQL零基础入门教程/第二天/主知识点八：常用函数/【练习题】.md",
     "数据库/MySQL/戴师兄SQL零基础入门教程/第二天/第二天.md",
-    "数据库/MySQL/戴师兄SQL零基础入门教程/第二天/主知识点七：表连接.md",
     "数据库/MySQL/戴师兄SQL零基础入门教程/第二天/主知识点八：常用函数.md",
-    "数据库/MySQL/戴师兄SQL零基础入门教程/戴师兄SQL零基础入门教程.md",
-    "数据库/MySQL/戴师兄SQL零基础入门教程/第一天/主知识点五：limit.md",
-    "数据库/MySQL/戴师兄SQL零基础入门教程/第一天/主知识点一：select&from.md",
     "数据库/MySQL/戴师兄SQL零基础入门教程/第一天/主知识点二：where.md",
-    "数据库/MySQL/戴师兄SQL零基础入门教程/第一天/主知识点四：order by.md"
+    "数据库/MySQL/戴师兄SQL零基础入门教程/第一天/第一天.md",
+    "template/T-1.md",
+    "数据库/MySQL/戴师兄SQL零基础入门教程/第一天/主知识点一：select&from.md"
   ]
 }

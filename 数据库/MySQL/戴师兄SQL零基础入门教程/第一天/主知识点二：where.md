@@ -131,101 +131,101 @@
 		-   ![](https://api2.mubu.com/v3/document_image/f386d31c-876c-4fbd-aa07-16a0f36b006d-9404487.jpg)  
 	-   通配符  
 		-   ![](https://api2.mubu.com/v3/document_image/5714f438-11a2-482c-8071-de8290bf562b-9404487.jpg)  
--   【练习题】  
-	-   【1】[https://sqlzoo.net/wiki/SELECT_from_WORLD_Tutorial](https://sqlzoo.net/wiki/SELECT_from_WORLD_Tutorial)第四题  
-		-   【题目】  
-			-   查询南美洲（south america）所有国家的名称以及它们以百万（1000000 ）为单位的人口数量  
-			-   ![](https://api2.mubu.com/v3/document_image/03dc03d3-9c23-4e37-8859-c96c0217559f-9404487.jpg)  
-		-   【正确答案】  
-			-   select  
-			-   name  
-			-   , population/1000000 population_in_millions  
-			-   from world  
-			-   where continent = 'South America';  
+### 【练习题】  
+-   【1】[https://sqlzoo.net/wiki/SELECT_from_WORLD_Tutorial](https://sqlzoo.net/wiki/SELECT_from_WORLD_Tutorial)第四题  
+	-   【题目】  
+		-   查询南美洲（south america）所有国家的名称以及它们以百万（1000000 ）为单位的人口数量  
+		-   ![](https://api2.mubu.com/v3/document_image/03dc03d3-9c23-4e37-8859-c96c0217559f-9404487.jpg)  
+	-   【正确答案】  
+		-   select  
+		-   name  
+		-   , population/1000000 population_in_millions  
+		-   from world  
+		-   where continent = 'South America';  
 
 
-	-   【2】[https://sqlzoo.net/wiki/SELECT_from_Nobel_Tutorial](https://sqlzoo.net/wiki/SELECT_from_Nobel_Tutorial)第九题  
+-   【2】[https://sqlzoo.net/wiki/SELECT_from_Nobel_Tutorial](https://sqlzoo.net/wiki/SELECT_from_Nobel_Tutorial)第九题  
 
-		-   【题目】  
+	-   【题目】  
 
-			-   查询1980年除诺贝尔化学奖和诺贝尔医学奖外其余奖项获奖者的所有信息。  
-
-
-			-   ![](https://api2.mubu.com/v3/document_image/4c47fda4-cee1-4120-8e42-faa863e635f5-9404487.jpg)  
+		-   查询1980年除诺贝尔化学奖和诺贝尔医学奖外其余奖项获奖者的所有信息。  
 
 
-		-   【正确答案】  
-
-			-   select *  
+		-   ![](https://api2.mubu.com/v3/document_image/4c47fda4-cee1-4120-8e42-faa863e635f5-9404487.jpg)  
 
 
-			-   from nobel  
+	-   【正确答案】  
+
+		-   select *  
 
 
-			-   where yr = 1980  
+		-   from nobel  
 
 
-			-   and subject not in ('Chemistry','Medicine')  
+		-   where yr = 1980  
 
 
-	-   【3】[https://sqlzoo.net/wiki/SELECT_from_WORLD_Tutorial](https://sqlzoo.net/wiki/SELECT_from_WORLD_Tutorial)第十三题  
-
-		-   【题目】  
-
-			-   查询既包含有所有元音字母（a,e,i,o,u），同时国家名中没有空格的国家，最后显示他们的名字  
+		-   and subject not in ('Chemistry','Medicine')  
 
 
-			-   例如，赤道几内亚Equatorial Guinea 和 多米尼加共和国Dominican Republic ，都包括有五个元音字母（a,e,i,o,u)，但这些国家不会被记录，因为国家名中，由两个单词构成（有空格）  
+-   【3】[https://sqlzoo.net/wiki/SELECT_from_WORLD_Tutorial](https://sqlzoo.net/wiki/SELECT_from_WORLD_Tutorial)第十三题  
+
+	-   【题目】  
+
+		-   查询既包含有所有元音字母（a,e,i,o,u），同时国家名中没有空格的国家，最后显示他们的名字  
 
 
-			-   ![](https://api2.mubu.com/v3/document_image/b19f59f8-ce9a-4d97-85a7-9fc364981931-9404487.jpg)  
+		-   例如，赤道几内亚Equatorial Guinea 和 多米尼加共和国Dominican Republic ，都包括有五个元音字母（a,e,i,o,u)，但这些国家不会被记录，因为国家名中，由两个单词构成（有空格）  
 
 
-		-   【正确答案】  
-
-			-   select name  
+		-   ![](https://api2.mubu.com/v3/document_image/b19f59f8-ce9a-4d97-85a7-9fc364981931-9404487.jpg)  
 
 
-			-   from world  
+	-   【正确答案】  
+
+		-   select name  
 
 
-			-   where name like '%a%'  
+		-   from world  
 
 
-			-   and name like '%e%'  
+		-   where name like '%a%'  
 
 
-			-   and name like '%i%'  
+		-   and name like '%e%'  
 
 
-			-   and name like '%o%'  
+		-   and name like '%i%'  
 
 
-			-   and name like '%u%'  
+		-   and name like '%o%'  
 
 
-			-   and name not like '% %';  
+		-   and name like '%u%'  
 
 
-	-   【4】[https://sqlzoo.net/wiki/SELECT_from_Nobel_Tutorial](https://sqlzoo.net/wiki/SELECT_from_Nobel_Tutorial)第十题  
-
-		-   【题目】  
-
-			-   查询1910年以前（不含1910）诺贝尔医学奖获得者和2004年及以后诺贝尔文学奖获得者的所有信息  
+		-   and name not like '% %';  
 
 
-			-   ![](https://api2.mubu.com/v3/document_image/1eddcf7f-3b7b-4913-be5a-a23629bb4bd0-9404487.jpg)  
+-   【4】[https://sqlzoo.net/wiki/SELECT_from_Nobel_Tutorial](https://sqlzoo.net/wiki/SELECT_from_Nobel_Tutorial)第十题  
+
+	-   【题目】  
+
+		-   查询1910年以前（不含1910）诺贝尔医学奖获得者和2004年及以后诺贝尔文学奖获得者的所有信息  
 
 
-		-   【正确答案】  
-
-			-   select *  
+		-   ![](https://api2.mubu.com/v3/document_image/1eddcf7f-3b7b-4913-be5a-a23629bb4bd0-9404487.jpg)  
 
 
-			-   from nobel  
+	-   【正确答案】  
+
+		-   select *  
 
 
-			-   where (subject = 'Medicine' and yr < 1910)  
+		-   from nobel  
 
 
-			-   or (subject = 'Literature' and yr >= 2004)
+		-   where (subject = 'Medicine' and yr < 1910)  
+
+
+		-   or (subject = 'Literature' and yr >= 2004)

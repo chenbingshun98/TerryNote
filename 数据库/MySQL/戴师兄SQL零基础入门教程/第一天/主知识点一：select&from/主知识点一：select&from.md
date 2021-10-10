@@ -1,13 +1,13 @@
 # 主知识点一：select&from
 
-### 【标准语法】  
+## [[【标准语法】]]
 
 -   `select`
 	-    字段名  
 -   `from`
 	-    表名称  
 
-### 【语法解释】  
+## [[【语法解释】]]
 -   `select` 
 	-   字段名
 		-    表明选择查询表格中的哪几列进行查看  
@@ -15,11 +15,11 @@
 	-    表格名 
 		-    表明你查询的数据来自哪一个数据库表  
 
-### 【例题讲解】  
+## [[【例题讲解】]]
 -   【基础查询select单列&多列&所有列&别名应用】  
 	-   我们点开链接[https://sqlzoo.net/wiki/SELECT_from_WORLD_Tutorial](https://sqlzoo.net/wiki/SELECT_from_WORLD_Tutorial)第一题  
 
-#### 【题目】  
+### 【题目】  
 -   阅读关于表格的信息，观察SQL代码并运行  
 -   我们先观察我们要查询的表格中的表头，知道每个列名称，再查看表格前几行数据知道每一行和每一列数据的大致内容  
 	-   ![](https://api2.mubu.com/v3/document_image/2a62d212-b6ea-43fb-8b93-185a6d25301d-9404487.jpg)  
@@ -57,18 +57,18 @@
 			-   此时每行数据的GDP和population相除，生成我们所需的新字段人均gdp，我们还可以对计算字段添加别名人均gdp  
 
 
--   【总结】  
-	-   基础语法  
-		-   select 字段名 from 表名称  
-	-   别名语法  
-		-   select 字段名 as 别名 from 表名称  
-		-   注意：as可以省略  
-	-   查询多列  
-		-   select 字段名1, 字段名2, 字段名3 from 表名称  
-	-   查询所有列  
-		-   select * from 表名称  
-	-   数据去重  
-		-   select distinct 字段名 from 表名称  
-	-   select中的计算字段  
-		-   select 字段名,计算字段 from 表名称  
-		-   注意：计算字段中的算式所涉及的 字段名必须是表格中包含的，或者算式本身可以独立运算
+## [[【总结】]]
+-   基础语法  
+	-   select 字段名 from 表名称  
+-   别名语法  
+	-   select 字段名 as 别名 from 表名称  
+	-   注意：as可以省略  
+-   查询多列  
+	-   select 字段名1, 字段名2, 字段名3 from 表名称  
+-   查询所有列  
+	-   select * from 表名称  
+-   数据去重  
+	-   select distinct 字段名 from 表名称  
+-   select中的计算字段  
+	-   select 字段名,计算字段 from 表名称  
+	-   注意：计算字段中的算式所涉及的 字段名必须是表格中包含的，或者算式本身可以独立运算
