@@ -46,7 +46,7 @@ Simple examples of first- and second-order partial differential
 equations, solution of the wave equation in the form
 $f(x + ct) + g(x - ct)$.\[5\]
 
-# Introduction
+## Introduction
 
 In this course, it is assumed that students already know how to do
 calculus. While we will define all of calculus from scratch, it is there
@@ -80,13 +80,13 @@ In this course, we will develop numerous techniques to solve different
 differential equations and difference equations. Often, this involves
 guessing of some sort.
 
-# Differentiation
+## Differentiation
 
 We will first quickly go through basic notions of differentiation and
 integration. You should already be familiar with these from A levels or
 equivalent.
 
-## Differentiation
+### Differentiation
 
 ::: defi
 The *derivative* of a function $f(x)$ with respect to $x$, interpreted
@@ -110,7 +110,7 @@ Note that the notation $f'$ represents the derivative with respect to
 the argument. For example, $f'(2x) = \frac{\d f}{\d (2x)}$
 :::
 
-## Small $o$ and big $O$ notations
+### Small $o$ and big $O$ notations
 
 ::: defi
 1.  "$f(x) = o(g(x))$ as $x\to x_0$" if
@@ -162,7 +162,7 @@ definition of the derivative and the small $o$ notation. The result
 follows. ◻
 :::
 
-## Methods of differentiation
+### Methods of differentiation
 
 ::: thm
 Given $f(x) = F(g(x))$, then
@@ -191,7 +191,7 @@ $$f^{(n)}(x) = \sum_{r = 0}^n \binom{n}{r}u^{(r)}v^{(n - r)},$$ where
 $f^{(n)}$ is the n-th derivative of $f$.
 :::
 
-## Taylor's theorem
+### Taylor's theorem
 
 ::: thm
 For $n$-times differentiable $f$, we have
@@ -209,7 +209,7 @@ $$f(x) = f(x_0) + (x-x_0)f'(x_0) + \cdots + \frac{(x-x_0)^n}{n!}f^{(n)}(x_0) + E
 When the limit as $n\to \infty$ is taken, the Taylor series of $f(x)$
 about the point $x = x_0$ is obtained.
 
-## L'Hopital's rule
+### L'Hopital's rule
 
 ::: thm
 Let $f(x)$ and $g(x)$ be differentiable at $x_0$, and
@@ -227,9 +227,9 @@ $g(x)$. Thus $$\begin{aligned}
   \end{aligned}$$ ◻
 :::
 
-# Integration
-
 ## Integration
+
+### Integration
 
 ::: defi
 An *integral* is the limit of a sum, e.g.
@@ -271,7 +271,7 @@ We write $\int f(x)\;\d x= \int^x f(t)\;\d t$, where the unspecified
 lower limit gives rise to the constant of integration.
 :::
 
-## Methods of integration
+### Methods of integration
 
 Integration is substantially harder than differentiation. Given an
 expression, the product rule and chain rule combined with a few standard
@@ -337,9 +337,9 @@ $u' = \frac{1}{x}$ and $v = x$. So we have $$\begin{aligned}
   \end{aligned}$$
 :::
 
-# Partial differentiation
-
 ## Partial differentiation
+
+### Partial differentiation
 
 So far, we have only considered functions of one variable. If we have a
 function of multiple variables, say $f(x, y)$, we can either
@@ -387,7 +387,7 @@ $f_{xy} = f_{yx}$.
 We will not prove this statement and just assume it to be true (since
 this is an applied course).
 
-## Chain rule
+### Chain rule
 
 Consider an arbitrary displacement in any direction
 $(x, y) \to (x+\delta x, y + \delta y)$. We have $$\begin{aligned}
@@ -422,7 +422,7 @@ e.g. change to polar coordinates $x = x(r, \theta)$, $y = y(r, \theta)$.
 Then
 $$\left.\frac{\partial f}{\partial \theta}\right|_r = \left. \frac{\partial f}{\partial x}\right|_y \left.\frac{\partial x}{\partial \theta}\right|_r + \left.\frac{\partial f}{\partial y}\right|_x\left.\frac{\partial y}{\partial \theta}\right|_r.$$
 
-## Implicit differentiation
+### Implicit differentiation
 
 Consider the contour surface of a function $F(x, y, z)$ given by
 $F(x, y, z) =$ const. This implicitly defines $z = z(x, y)$. e.g. If
@@ -450,7 +450,7 @@ $$\left.\frac{\partial z}{\partial x}\right|_y = -\frac{(\partial F)/(\partial x
   \end{aligned}$$ ◻
 :::
 
-## Differentiation of an integral wrt parameter in the integrand
+### Differentiation of an integral wrt parameter in the integrand
 
 Consider a family of functions $f(x, c)$. Define
 $I(b, c) = \int_0^bf(x, c)\d x$. Then by the fundamental theorem of
@@ -480,16 +480,16 @@ $I = \int_0^\lambda e^{-\lambda x^2}\d x$. Then
 $$\frac{\d I}{\d \lambda} = e^{-\lambda^3} + \int_0^{\lambda}-x^2e^{-\lambda x^2}\;\d x.$$
 :::
 
-# First-order differential equations
+## First-order differential equations
 
 A differential equation is an equation that involves derivatives, such
-as $x^2\frac{\d y}{\d x} + 2y = 0$. Unlike regular equations where the
+as $x^2\frac{d y}{d x} + 2y = 0$. Unlike regular equations where the
 solution is a number, the solution to a differential equation is a
 function that satisfies the equation. In this chapter, we will look at
 *first-order differential equations*, where only first derivatives are
 involved.
 
-## The exponential function
+### The exponential function
 
 Often, the solutions to differential equations involve the exponential
 function. Consider a function $f(x) = a^x$, where $a>0$ is constant.
@@ -497,12 +497,13 @@ function. Consider a function $f(x) = a^x$, where $a>0$ is constant.
 ::: center
 :::
 
-The derivative of this function is given by $$\begin{aligned}
-  \frac{\d f}{\d x} &= \lim_{h\to 0}\frac{a^{x+h}-a^x}{h}\\
+The derivative of this function is given by
+$$\begin{aligned}
+  \frac{d f}{d x} &= \lim_{h\to 0}\frac{a^{x+h}-a^x}{h}\\
   &= a^x\lim_{h\to 0}\frac{a^h-1}{h}\\
   &= \lambda a^x\\
-  &= \lambda f(x)\end{aligned}$$ where
-$\displaystyle \lambda = \lim_{h\to 0}\frac{a^h-1}{h} = f'(0) =$ const.
+  &= \lambda f(x)\end{aligned}$$
+  where$\displaystyle \lambda = \lim_{h\to 0}\frac{a^h-1}{h} = f'(0) =$ const.
 So the derivative of an exponential function is a multiple of the
 original function. In particular,
 
@@ -531,7 +532,7 @@ changed. i.e. $$\frac{\d f}{\d x} = \lambda f$$
 $e^{mx}$ is an eigenfunction since $\frac{\d }{\d x}e^{mx} = me^{mx}$.
 :::
 
-## Homogeneous linear ordinary differential equations
+### Homogeneous linear ordinary differential equations
 
 Before we start, we will first define the terms used in the title. These
 are useful criteria for categorizing differential equations.
@@ -586,7 +587,7 @@ solution.
 
 We can determine $A$ by applying a given boundary condition.
 
-### Discrete equations {#discrete-equations .unnumbered}
+#### Discrete equations {#discrete-equations .unnumbered}
 
 Suppose that we are given the equation $5y' - 3y = 0$ with boundary
 condition $y = y_0$ at $x = 0$. This gives a unique function $y$. We can
@@ -608,7 +609,7 @@ in agreement with the solution of the differential equation.
 ::: center
 :::
 
-### Series solution {#series-solution .unnumbered}
+#### Series solution {#series-solution .unnumbered}
 
 We can also try to find a solution in the form of a Taylor Series
 $y = \sum\limits_{n=0}^\infty a_nx^n$. We have $y' = \sum a_nnx^{n-1}$.
@@ -623,7 +624,7 @@ $$a_n = \frac{3}{5n}a_{n-1} = \frac{3^2}{5^2}\frac{1}{n(n-1)}a_{n-2} = \cdots = 
 Therefore we have
 $$y = a_0\sum_{n = 0}^\infty \left(\frac{3x}{5}\right)^n\frac{1}{n!} \left[= a_0 e^{3x/5}\right].$$
 
-## Forced (inhomogeneous) equations
+### Forced (inhomogeneous) equations
 
 Recall that a homogeneous equation is an equation like $5y' - 3y = 0$,
 with no $x$ or constant terms floating around. A forced, or
@@ -631,7 +632,7 @@ inhomogeneous, equation is one that is not homogeneous. For example,
 $5y' - 3y = 10$ or $5y' - 3y = x^2$ are forced equations. We call the
 "extra" terms $10$ and $x^2$ the *forcing terms*.
 
-### Constant forcing
+#### Constant forcing
 
 ::: eg
 Consider $5y' - 3y = 10$. We can spot that there is a equilibrium
@@ -651,7 +652,7 @@ we solve the homogeneous equation to get a general complementary
 solution. Then the general solution to the full equation is the sum of
 the particular solution and the general complementary solution.
 
-### Eigenfunction forcing
+#### Eigenfunction forcing
 
 This is the case when the forcing term is an eigenfunction of the
 differential operator.
@@ -692,7 +693,7 @@ So given the current ratio $b/a$, with laboratory determined rates $k_a$
 and $k_b$, we can determine the value of $t$, i.e. the age of the rock.
 :::
 
-## Non-constant coefficients
+### Non-constant coefficients
 
 Consider the general form of equation $$a(x)y' + b(x)y = c(x).$$ Divide
 by $a(x)$ to get the standard form $$y' + p(x) y = f(x).$$ We solve this
@@ -724,7 +725,7 @@ ensure that $Ce^x - 1\to 0$ as $x\to 0$. Thus $C = 1$, and by
 L'Hopital's rule, $y\to 1$ as $x\to 0$.
 :::
 
-## Non-linear equations
+### Non-linear equations
 
 In general, a first-order equation has the form
 $$Q(x, y)\frac{\d y}{\d x} + P(x, y) = 0.$$ (this is not exactly the
@@ -732,7 +733,7 @@ most general form, since theoretically we can have powers of $y'$ or
 even other complicated functions of $y'$, but we will not consider that
 case here).
 
-### Separable equations
+#### Separable equations
 
 ::: defi
 A first-order differential equation is *separable* if it can be
@@ -756,7 +757,7 @@ $$\begin{aligned}
   \end{aligned}$$
 :::
 
-### Exact equations
+#### Exact equations
 
 ::: defi
 $Q(x, y)\frac{\d y}{\d x} + P(x, y) = 0$ is an *exact equation* iff the
@@ -818,7 +819,7 @@ original equation was $\d f = 0$, we have $f =$ constant. Thus the final
 solution is $$x^2 - 3xy^2 + 2y^3 = C.$$
 :::
 
-## Solution curves (trajectories)
+### Solution curves (trajectories)
 
 ::: eg
 Consider the first-order equation $$\frac{\d y}{\d t} = t(1 - y^2).$$ We
@@ -856,7 +857,7 @@ In general, we sketch the graph of a differential equation
 $$\frac{\d y}{\d t} = f(t, y)$$ by locating constant solutions (and
 determining stability: see below) and isoclines.
 
-## Fixed (equilibrium) points and stability
+### Fixed (equilibrium) points and stability
 
 ::: defi
 An *equilibrium point* or a *fixed point* of a differential equation is
@@ -884,7 +885,7 @@ fixed point. They diverge from $y = -1$, and this is an unstable fixed
 point.
 :::
 
-### Perturbation analysis
+#### Perturbation analysis
 
 Perturbation analysis is used to determine stability. Suppose $y = a$ is
 a fixed point of $\frac{\d y}{\d t} = f(y, t)$, so $f(a, t) = 0$. Write
@@ -924,7 +925,7 @@ be sure that the perturbation grows (even if not $\to \infty$) as $t$
 increases.
 :::
 
-### Autonomous systems
+#### Autonomous systems
 
 Often, the mechanics of a system does not change with time. So $\dot y$
 is only a function of $y$ itself. We call this an *autonomous system*.
@@ -980,7 +981,7 @@ $c \leq a_0$ are physically attainable, and in this case, any solution
 will tend towards $c = a_0$.
 :::
 
-### Logistic Equation
+#### Logistic Equation
 
 The logistic equation is a simple model of population dynamics. Suppose
 we have a population of size $y$. It has a birth rate $\alpha y$ and a
@@ -1013,7 +1014,7 @@ Now when the population is small, we have $$\dot y \simeq ry$$ So the
 population grows exponentially. Eventually, the stable equilibrium $Y$
 is reached.
 
-## Discrete equations (Difference equations)
+### Discrete equations (Difference equations)
 
 Since differential equations are approximated numerically by computers
 with discrete equations, it is important to study the behaviour of
@@ -1082,13 +1083,13 @@ Note that the fixed point still exists after $\lambda = 3$, but is no
 longer stable. Similarly, the 2-cycles still exist after
 $\lambda = 1 + \sqrt{6}$, but it is not stable.
 
-# Second-order differential equations
+## Second-order differential equations
 
 We now move on to second-order differential equations. While we will
 only look at second-order equations, most of the methods in this section
 apply to higher order differential equations as well.
 
-## Constant coefficients
+### Constant coefficients
 
 The general form of an equation with constant coefficients is
 $$ay'' + by' + cy = f(x).$$ We solve this in two steps:
@@ -1098,7 +1099,7 @@ $$ay'' + by' + cy = f(x).$$ We solve this in two steps:
 
 2.  Find a particular solution that satisfies the full equation.
 
-### Complementary functions
+#### Complementary functions
 
 Recall that $e^{\lambda x}$ is an eigenfunction of the differential
 operator $\frac{\d}{\d x}$. Hence it is also an eigenfunction of the
@@ -1178,7 +1179,7 @@ function of a linear differential equation with constant coefficients,
 then $y_2(x) = xy_1(x)$ is an independent complementary function.
 :::
 
-### Second complementary function
+#### Second complementary function
 
 In general (i.e. if we don't have constant coefficients), we can find a
 second complementary function associated with a degenerate solution of
@@ -1197,7 +1198,7 @@ $v'' = 0$, which forces $v$ to be a linear function of $x$. So
 $y_2 = (Ax + B)e^{2x}$ for some $A, B \in \R$.
 :::
 
-### Phase space
+#### Phase space
 
 If we are given a general $n$th order differential equation of the form
 $$a_n(x) y^{(n)} + a_{n - 1}y^{(n - 1)} + \cdots + a_1(x) y' + a_0 (x) y = f(x),$$
@@ -1306,12 +1307,12 @@ be written in the form $\mathbf{Y}' + A\mathbf{Y} = 0$, a system of
 first-order equations. It can then be shown that $W' + \tr(A)W = 0$, and
 $W = W_0e^{-\int \tr A\;\d x}$. So Abel's theorem holds.
 
-## Particular integrals
+### Particular integrals
 
 We now consider equations of the form $ay'' + by' + cy = f(x)$. We will
 come up with several ways to find a particular integral.
 
-### Guessing
+#### Guessing
 
 If the forcing terms are simple, we can easily "guess" the form of the
 particular integral, as we've previously done for first-order equations.
@@ -1349,7 +1350,7 @@ Note that any boundary condition to determine $A$ and $B$ must be
 applied to the full solution, not the complementary function
 :::
 
-### Resonance
+#### Resonance
 
 Consider $\ddot y + \omega_0^2 y = \sin \omega_0 t$. The complementary
 solution is $y_c = A\sin \omega_0 t + B\cos w_0 t$. We notice that the
@@ -1391,7 +1392,7 @@ forcing is a linear combination of complementary functions, then the
 particular integral is proportional to $t$ (the independent variable)
 times the non-resonant guess.
 
-### Variation of parameters
+#### Variation of parameters
 
 So far, we have been finding particular integrals by guessing. Here we
 are going to come up with a method that can systematically help us find
@@ -1474,7 +1475,7 @@ It is generally not a good idea to remember the exact formula for the
 results we've obtained above. Instead, whenever faced with such
 questions, you should be able to re-derive the results instead.
 
-## Linear equidimensional equations
+### Linear equidimensional equations
 
 Equidimensional equations are often called homogeneous equations, but
 this is confusing as it has the same name as those with no forcing term.
@@ -1491,7 +1492,7 @@ dimensions $T$. Then $y'$ has dimensions $LT^{-1}$ and $y''$ has
 dimensions $LT^{-2}$. So all terms $x^2 y''$, $xy'$ and $y$ have the
 same dimensions.
 
-### Solving by eigenfunctions {#solving-by-eigenfunctions .unnumbered}
+#### Solving by eigenfunctions {#solving-by-eigenfunctions .unnumbered}
 
 Note that $y = x^k$ is an eigenfunction of $x\frac{\d}{\d x}$. We can
 try an eigenfunction $y = x^k$. We have $y' = kx^{k - 1}$ and thus
@@ -1502,7 +1503,7 @@ Substituting in, we have $$ak(k - 1) + bk + c = 0,$$ which we can solve,
 in general, to give two roots $k_1$ and $k_2$, and
 $y_c = Ax^{k_1} + Bx^{k_2}$.
 
-### Solving by substitution {#solving-by-substitution .unnumbered}
+#### Solving by substitution {#solving-by-substitution .unnumbered}
 
 Alternatively, we can make a substitution $z = \ln x$. Then we can show
 that
@@ -1516,7 +1517,7 @@ $a\lambda(\lambda - 1) + b\lambda + c = 0$. So $\lambda = k_1, k_2$.
 Then the complementary function is
 $y_c = Ae^{k_1z} + Be^{k_2z} = Ax^{k_1} + Bx^{k_2}$.
 
-### Degenerate solutions {#degenerate-solutions .unnumbered}
+#### Degenerate solutions {#degenerate-solutions .unnumbered}
 
 If the roots of the characteristic equation are equal, then
 $y_c = \{e^{kz}, ze^{kz}\} = \{x^k, x^k\ln x\}$. Similarly, if there is
@@ -1527,7 +1528,7 @@ These results can be easily obtained by considering the substitution
 method of solving, and then applying our results from homogeneous linear
 equations with constant coefficients.
 
-## Difference equations
+### Difference equations
 
 Consider an equation of the form
 $$a y_{n + 2} + by_{n + 1} + cy_n = f_n.$$ We can solve in a similar way
@@ -1573,7 +1574,7 @@ and $\displaystyle B = \frac{-\varphi_2}{\sqrt{5}}$. So
 $$y_n = \frac{\varphi_1^{n + 1} - \varphi_2^{n + 1}}{\sqrt{5}} = \frac{\varphi_1^{n + 1} - \left(\frac{-1}{\varphi_1}\right)^{n + 1}}{\sqrt{5}}$$
 :::
 
-## Transients and damping
+### Transients and damping
 
 In many physical systems, there is some sort of restoring force and some
 damping, e.g. car suspension system.
@@ -1598,7 +1599,7 @@ instead of the original three ($M, l, k$).
 
 We will consider different possible cases.
 
-### Free (natural) response $f = 0$ {#free-natural-response-f-0 .unnumbered}
+#### Free (natural) response $f = 0$ {#free-natural-response-f-0 .unnumbered}
 
 $$\begin{aligned}
   \ddot x + 2\kappa \dot x + x &= 0\\
@@ -1608,7 +1609,7 @@ $$\begin{aligned}
   &= -\lambda_1, -\lambda_2\end{aligned}$$ where $\lambda_1$ and
 $\lambda_2$ have positive real parts.
 
-### Underdamping {#underdamping .unnumbered}
+#### Underdamping {#underdamping .unnumbered}
 
 If $\kappa < 1$, we have
 $x = e^{-\kappa\tau}(A\sin \sqrt{1 - \kappa^2}\tau +B\cos \sqrt{1 - \kappa^2}\tau)$.
@@ -1621,7 +1622,7 @@ $\to \infty$.
 ::: center
 :::
 
-### Critically damping {#critically-damping .unnumbered}
+#### Critically damping {#critically-damping .unnumbered}
 
 If $\kappa = 1$, then $x = (A + B\tau)e^{-\kappa\tau}$.
 
@@ -1631,7 +1632,7 @@ the dimensional rise and decay times are $O(\sqrt{M/k})$.
 ::: center
 :::
 
-### Overdamping {#overdamping .unnumbered}
+#### Overdamping {#overdamping .unnumbered}
 
 If $\kappa > 1$, then $x = Ae^{-\lambda_1\tau} + Be^{-\lambda_2\tau}$
 with $\lambda_1 < \lambda_2$. Then the decay time is $O(1/\lambda_1)$
@@ -1643,7 +1644,7 @@ and the rise time is $O(1/\lambda_2)$.
 Note that in all cases, it is possible to get a large initial increase
 in amplitude.
 
-### Forcing {#forcing .unnumbered}
+#### Forcing {#forcing .unnumbered}
 
 In a forced system, the complementary functions typically determine the
 short-time transient response, while the particular integral determines
@@ -1658,9 +1659,9 @@ as $\tau\to \infty$ since $\Re (\lambda_{1, 2}) > 0$.
 It is important to note that the forcing response is out of phase with
 the forcing.
 
-## Impulses and point forces
+### Impulses and point forces
 
-### Dirac delta function
+#### Dirac delta function
 
 Consider a ball bouncing on the ground. When the ball hits the ground at
 some time $T$, it experiences a force from the ground for some short
@@ -1770,7 +1771,7 @@ function, and $y''$ would be something completely unrecognizable.
 Hence the discontinuity is always addressed by the highest order
 derivative since differentiation increases the discontinuity.
 
-## Heaviside step function
+### Heaviside step function
 
 ::: defi
 Define the Heaviside step function as:
@@ -1785,7 +1786,7 @@ $$\frac{\d H}{\d x} = \delta(x)$$ But remember that these functions and
 relationships can only be used inside integrals.
 :::
 
-# Series solutions
+## Series solutions
 
 Often, it is difficult to solve a differential equation directly.
 However, we can attempt to find a Taylor series for the solution.
@@ -1837,7 +1838,7 @@ a Taylor series.
 
 We will not prove these results, but merely apply them.
 
-### Ordinary points {#ordinary-points .unnumbered}
+#### Ordinary points {#ordinary-points .unnumbered}
 
 ::: eg
 Consider $(1 - x^2)y'' - 2xy' + 2y = 0$. Find a series solution about
@@ -1879,7 +1880,7 @@ For $n > 1$, $n$ and $n - 1$ are non-zero. So we have $$\begin{aligned}
 which are regular singular points.
 :::
 
-### Regular singular points {#regular-singular-points .unnumbered}
+#### Regular singular points {#regular-singular-points .unnumbered}
 
 ::: eg
 Consider $4xy'' + 2(1 - x^2)y' - xy = 0$. Note that $x = 0$ is a
@@ -1926,7 +1927,7 @@ For even $n$, $$a_n = \frac{n - 1}{n(2n + 1)}a_{n - 2}$$ So
 $$y = b_0 x^{1/2}\left[1 + \frac{1}{2\cdot 5}x^2 + \frac{3}{2\cdot 5\cdot 4\cdot 9}x^4 + \cdots\right]$$
 :::
 
-### Resonance of solutions {#resonance-of-solutions .unnumbered}
+#### Resonance of solutions {#resonance-of-solutions .unnumbered}
 
 Note that the indicial equation has two roots $\sigma_1, \sigma_2$.
 Consider the two different cases:
@@ -1978,9 +1979,9 @@ The other solution is thus in the form
 $$y_2 = y_1\ln x + \sum_{n = 0}^\infty b_nx^n.$$
 :::
 
-# Directional derivative {#sec:directional-derivative}
+## Directional derivative {#sec:directional-derivative}
 
-## Gradient vector
+### Gradient vector
 
 Consider a function $f(x, y)$ and a displacement
 $\d\mathbf{s} = (\d x, \d y)$. The change in $f(x, y)$ during that
@@ -2026,7 +2027,7 @@ So we know that
     $$\frac{\d f}{\d s} = 0.$$ So $\mathbf{\hat{s}}\cdot \nabla f = 0$,
     i.e. $\nabla f$ is orthogonal to the contour.
 
-## Stationary points
+### Stationary points
 
 There is always (at least) one direction in which
 $\frac{\d f}{\d s} = 0$, namely the direction parallel to the contour of
@@ -2047,7 +2048,7 @@ When we plot out contours of functions, near maxima and minima, the
 contours are locally elliptical. Near saddle points, they are locally
 hyperbolic. Also, the contour lines cross at and only at saddle points.
 
-## Taylor series for multi-variable functions
+### Taylor series for multi-variable functions
 
 Suppose we have a function $f(x, y)$ and a point $\mathbf{x}_0$. Now
 consider a finite displacement $\delta s$ along a straight line in the
@@ -2094,7 +2095,7 @@ Alternatively, in terms of the gradient operator (and real dot
 products), we have
 $$f(\mathbf{x}) = f(\mathbf{x_0}) + \delta \mathbf{x}\cdot \nabla f(\mathbf{x}_0) + \frac{1}{2}[\nabla (\nabla f\cdot \delta \mathbf{x})]\cdot \delta\mathbf{x}$$
 
-## Classification of stationary points
+### Classification of stationary points
 
 At a stationary point $\mathbf{x}_0$, we know that
 $\nabla f(\mathbf{x}_0) = 0$. So at a point near the stationary point,
@@ -2170,7 +2171,7 @@ $+, +, \cdots, +$. $H$ is negative definite if and only if the signature
 is $-, +, \cdots, (-1)^n$. Otherwise, $H$ is indefinite.
 :::
 
-## Contours of $f(x, y)$
+### Contours of $f(x, y)$
 
 Consider $H$ in 2 dimensions, and axes in which $H$ is diagonal. So $H =
 \begin{pmatrix}
@@ -2223,9 +2224,9 @@ contours cross only at saddles.
 :::
 :::
 
-# Systems of differential equations
+## Systems of differential equations
 
-## Linear equations
+### Linear equations
 
 Consider two dependent variables $y_1(t), y_2(t)$ related by
 $$\begin{aligned}
@@ -2434,7 +2435,7 @@ possible eigenvalues of $M$:
     above) by considering the eigenvectors. An example of this is given
     below.
 
-## Nonlinear dynamical systems
+### Nonlinear dynamical systems
 
 Consider the second-order autonomous system (i.e. $t$ does not
 explicitly appear in the forcing terms on the right) $$\begin{aligned}
@@ -2563,7 +2564,7 @@ spiral towards.
 
 # Partial differential equations (PDEs)
 
-## First-order wave equation
+### First-order wave equation
 
 Consider the equation of the form
 $$\frac{\partial y}{\partial t} = c\frac{\partial y}{\partial x},$$ with
@@ -2624,7 +2625,7 @@ Using the boundary conditions provided, At $t = 0$, $y = f(x_0) - 1$ and
 $x = x_0$. So $f(x_0) - 1 = e^{-x_0^2}$, i.e. $f(x_0) = 1 + e^{-x_0^2}$.
 So $$y = 1 + e^{-(x - 5t)^2} - e^{-t}.$$
 
-## Second-order wave equation
+### Second-order wave equation
 
 We consider equations in the following form:
 $$\frac{\partial ^2 y}{\partial t^2} = c^2 \frac{\partial^2 y}{\partial x^2}.$$
@@ -2701,7 +2702,7 @@ $$y = \frac{1}{2}\left[\frac{1}{1 + (x + ct)^2} + \frac{1}{1 + (x - ct)^2}\right
 Where we substituted $x$ for $x +ct$ and $x - ct$ in $f$ and $g$
 respectively.
 
-## The diffusion equation
+### The diffusion equation
 
 Heat conduction in a solid in one dimension is modelled by the diffusion
 equation
