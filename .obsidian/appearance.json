@@ -1,6 +1,6 @@
 {
   "baseFontSize": 16,
-  "cssTheme": "Gitsidian",
+  "cssTheme": "Minimal",
   "translucency": true,
   "enabledCssSnippets": [
     "tag-pills"
