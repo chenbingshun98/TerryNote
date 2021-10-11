@@ -4,14 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "e4c4a1a21cb560de",
+        "id": "fe196a062ee7f331",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "泛函分析笔记1：度量空间.md",
-            "mode": "source"
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -60,8 +57,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "b265fb343fbffabb",
@@ -77,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "泛函分析笔记1：度量空间.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +89,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "泛函分析笔记1：度量空间.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -116,9 +110,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "泛函分析笔记1：度量空间.md"
-              }
+              "state": {}
             }
           },
           {
@@ -145,17 +137,17 @@
     "width": 318.370361328125,
     "collapsed": true
   },
-  "active": "e4c4a1a21cb560de",
+  "active": "fe196a062ee7f331",
   "lastOpenFiles": [
-    "泛函分析笔记1：度量空间.md",
-    "泛函分析笔记.md",
-    "template/T-1.md",
-    "未命名.md",
-    "数学/概率论与统计/茆诗松 《概率论与数理统计教程》内容大纲.md",
-    "1.6信息量与熵.md",
-    "数学/线性代数/特征值的代数重数与几何重数/定义.md",
-    "数据库/MySQL/戴师兄SQL零基础入门教程/第二天/主知识点八：常用函数/【总结】.md",
-    "数据库/MySQL/戴师兄SQL零基础入门教程/第二天/主知识点八：常用函数/主知识点八：常用函数.md",
-    "数据库/MySQL/戴师兄SQL零基础入门教程/第二天/主知识点八：常用函数/【知识点引入】.md"
+    "数学/常微分方程/Series solutions.md",
+    "数学/常微分方程/Systems of differential equations.md",
+    "数学/常微分方程/differential_equations.md",
+    "数学/常微分方程/Directional derivative {secdirectional-derivative}.md",
+    "数学/常微分方程/Differentiation.md",
+    "数学/常微分方程/First-order differential equations.md",
+    "数学/泛函分析/泛函分析笔记1：度量空间.md",
+    "数学/数学公式的奥秘/数学公式的奥秘.md",
+    "数学/线性代数/特征值的代数重数与几何重数/几何重数不大于代数重数.md",
+    "数学/线性代数/相似矩阵/相似关系.md"
   ]
 }

@@ -1,5 +1,6 @@
 {
   "foldIndent": true,
   "alwaysUpdateLinks": true,
-  "promptDelete": false
+  "promptDelete": false,
+  "foldHeading": true
 }
