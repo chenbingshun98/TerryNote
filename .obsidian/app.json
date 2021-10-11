@@ -2,5 +2,7 @@
   "foldIndent": true,
   "alwaysUpdateLinks": true,
   "promptDelete": false,
-  "foldHeading": true
+  "foldHeading": true,
+  "showLineNumber": true,
+  "defaultViewMode": "source"
 }

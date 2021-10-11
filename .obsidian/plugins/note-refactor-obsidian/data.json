@@ -7,5 +7,5 @@
   "fileNamePrefix": "",
   "transcludeByDefault": false,
   "noteLinkTemplate": "",
-  "refactoredNoteTemplate": "---\nauthor: 陈冰顺\ntitle: {{fromTitle}}\ndate: {{date}}\nstatus: one of [hold|assess|trial|adopt]\naliases: \n- quadratic form\ntags: \n- quadratic_form\n- 二次型\nfrom: 2020年高等代数考点归纳与典型题（含考研真题）详解-圣才电子书-微信读书 \ntopic:\n- 二次型\nhistory:\n- \n---\n\n{{new_note_content}}"
+  "refactoredNoteTemplate": "---\nauthor: 陈冰顺\ntitle: {{fromTitle}}\ndate: {{date}}\nstatus: one of [hold|assess|trial|adopt]\naliases: \n- quadratic form\ntags: \n- quadratic_form\n- 二次型\nfrom: 2020年高等代数考点归纳与典型题（含考研真题）详解-圣才电子书-微信读书 \ntopic:\n- {{fromTitle}}\nhistory:\n- \n---\n\n{{new_note_content}}"
 }

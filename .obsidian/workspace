@@ -7,8 +7,11 @@
         "id": "fe196a062ee7f331",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "数学/偏微分方程/analysis_of_partial_differential_equations.md",
+            "mode": "source"
+          }
         }
       }
     ],
@@ -73,6 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "数学/偏微分方程/analysis_of_partial_differential_equations.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +93,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "数学/偏微分方程/analysis_of_partial_differential_equations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -110,7 +115,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "数学/偏微分方程/analysis_of_partial_differential_equations.md"
+              }
             }
           },
           {
@@ -139,15 +146,15 @@
   },
   "active": "fe196a062ee7f331",
   "lastOpenFiles": [
-    "数学/常微分方程/Series solutions.md",
-    "数学/常微分方程/Systems of differential equations.md",
+    "数学/偏微分方程/analysis_of_partial_differential_equations.md",
+    "数学/常微分方程/differential_equations/Second-order differential equations.md",
+    "数学/常微分方程/differential_equations/Systems of differential equations.md",
+    "数学/常微分方程/differential_equations/Series solutions.md",
+    "数学/常微分方程/differential_equations/Partial differentiation.md",
+    "数学/常微分方程/differential_equations/Introduction.md",
+    "数学/常微分方程/differential_equations/differential_equations.md",
+    "数学/常微分方程/differential_equations/Differentiation.md",
     "数学/常微分方程/differential_equations.md",
-    "数学/常微分方程/Directional derivative {secdirectional-derivative}.md",
-    "数学/常微分方程/Differentiation.md",
-    "数学/常微分方程/First-order differential equations.md",
-    "数学/泛函分析/泛函分析笔记1：度量空间.md",
-    "数学/数学公式的奥秘/数学公式的奥秘.md",
-    "数学/线性代数/特征值的代数重数与几何重数/几何重数不大于代数重数.md",
-    "数学/线性代数/相似矩阵/相似关系.md"
+    "数学/常微分方程/Series solutions.md"
   ]
 }
