@@ -16,5 +16,21 @@
       ],
       "key": "="
     }
+  ],
+  "editor:toggle-numbered-list": [
+    {
+      "modifiers": [
+        "Meta"
+      ],
+      "key": "N"
+    }
+  ],
+  "editor:toggle-bullet-list": [
+    {
+      "modifiers": [
+        "Meta"
+      ],
+      "key": "-"
+    }
   ]
 }
